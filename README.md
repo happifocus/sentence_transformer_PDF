@@ -11,6 +11,7 @@ To optimize computational performance, change the "Runtime Type" in the Google C
 This notebook relies on the following libraries:
 
 `!pip install -U sentence-transformers`
+
 `!pip install PyPDF2`
 
 ## 3. Import Dependencies
@@ -18,10 +19,15 @@ This notebook relies on the following libraries:
 The notebook uses the following Python libraries:
 
 `import os`
+
 `import PyPDF2`
+
 `from sentence_transformers import SentenceTransformer, util`
+
 `import torch`
+
 `import spacy`
+
 `from google.colab import drive`
 
 ## 4. Prepare Source Data on Google Drive
